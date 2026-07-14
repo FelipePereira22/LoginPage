@@ -1,0 +1,40 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #b13cb0 0%, #583cb1 50%, #3757cb 100%);
+}
+
+.content-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.title{
+  font-size: 4rem;
+  color: #fff;
+}
+
+.subtitle{
+  color: #ccc;
+}
+
+.btnBack{
+  padding: 20px;
+  border-radius: 30px;
+  border: 1px solid #083dff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btnBack:hover{
+  background: #083dff;
+}

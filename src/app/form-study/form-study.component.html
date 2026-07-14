@@ -1,0 +1,48 @@
+<div class="container">
+  <div class="formContainer">
+    <div class="modalForm">
+      <img
+        src="undraw_onboarding_dcq2.svg"
+        alt="Ilustração de um computador"
+        class="image-login"
+      />
+    </div>
+    <form class="form" [formGroup]="formRegister" (ngSubmit)="sendForm()">
+      <h2>Login</h2>
+
+      <input type="text" placeholder="Username" formControlName="name" />
+      @if (
+        formRegister.controls.name.hasError("required") &&
+        formRegister.controls.name.touched
+      ) {
+        <div class="invalidAlert">O campo é obrigatório.</div>
+      }
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      />
+      @if (
+        formRegister.controls.password.hasError("required") &&
+        formRegister.controls.password.touched
+      ) {
+        <div class="invalidAlert">O campo é obrigatório.</div>
+      }
+      @if (formRegister.controls.password.hasError("minlength")) {
+        <div class="invalidAlert">
+          O campo precisa ter no mínimo 8 caracteres.
+        </div>
+      }
+
+      <button type="submit" class="btn-submit" [disabled]="isLoading()">
+        @if(isLoading()){
+          Carregando...
+        } @else {
+          Login
+        }
+      </button>
+
+      <p>Crie uma conta</p>
+    </form>
+  </div>
+</div>
