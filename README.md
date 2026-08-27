@@ -1,4 +1,4 @@
-<div align="center">
+<div>
 🔐 Cadastro/Login Angular
 Fluxo de cadastro de usuário com proteção de rotas e consumo de API, construído com Angular standalone components.
 </div>
