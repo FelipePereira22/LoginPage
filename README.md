@@ -9,12 +9,12 @@
 
 <h2>✨ Funcionalidades</h2>
 	<h4>Descrição</h4>
-📝	Formulário reativo (ReactiveFormsModule) com validação de campos obrigatórios e senha mínima
-🌐	Envio dos dados para uma API real via HttpClient (POST)
-💾	Estado do usuário cadastrado gerenciado com signal
-🛡️	Rota /dashboard protegida por authGuard (CanActivateFn)
-🔁	Redirecionamento automático para /register se o acesso não for autorizado
-⏳	Feedback visual de carregamento e mensagens de sucesso/erro
+<p>📝	Formulário reativo (ReactiveFormsModule) com validação de campos obrigatórios e senha mínima</p>
+<p>🌐	Envio dos dados para uma API real via HttpClient (POST)</p>
+<p>💾	Estado do usuário cadastrado gerenciado com signal</p>
+<p>🛡️	Rota /dashboard protegida por authGuard (CanActivateFn)</p>
+<p>🔁	Redirecionamento automático para /register se o acesso não for autorizado</p>
+<p>⏳	Feedback visual de carregamento e mensagens de sucesso/erro</p>
 
 <h2>🛠️ Tecnologias</h2>
 <div align="left">
@@ -27,7 +27,8 @@
 
 </div>
 
-Angular (standalone components, signal, inject)
-Angular Router
-Reactive Forms
-HttpClient
+<p>Angular (standalone components, signal, inject)</p>
+<p>Angular Router</p>
+<p>Reactive Forms</p>
+<p>HttpClient</p>
+
