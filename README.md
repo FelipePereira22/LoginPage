@@ -1,4 +1,4 @@
-Cadastro/Login Angular
+Login Angular
 
 Projeto de estudo em Angular que simula um fluxo de cadastro de usuário com proteção de rotas via Auth Guard e consumo de API com HttpClient.
 
