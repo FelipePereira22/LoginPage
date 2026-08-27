@@ -1,14 +1,14 @@
 <div>
-🔐 Cadastro/Login Angular
-Fluxo de cadastro de usuário com proteção de rotas e consumo de API, construído com Angular standalone components.
+<h1>🔐Login Angular </h1>
+<p>Fluxo de cadastro de usuário com proteção de rotas e consumo de API, construído com Angular standalone components.</p>
 </div>
 
-📌 Sobre o projeto
+<h2>📌 Sobre o projeto</h2>
 
-Projeto de estudo que simula um fluxo real de cadastro → proteção de rota → dashboard, usando os recursos mais modernos do Angular: signal, inject, componentes standalone e CanActivateFn.
+<p>Projeto de estudo que simula um fluxo real de cadastro → proteção de rota → dashboard, usando os recursos mais modernos do Angular: signal, inject, componentes standalone e CanActivateFn. </p>
 
-✨ Funcionalidades
-	Descrição
+<h2>✨ Funcionalidades</h2>
+	<h4>Descrição</h4>
 📝	Formulário reativo (ReactiveFormsModule) com validação de campos obrigatórios e senha mínima
 🌐	Envio dos dados para uma API real via HttpClient (POST)
 💾	Estado do usuário cadastrado gerenciado com signal
@@ -16,7 +16,7 @@ Projeto de estudo que simula um fluxo real de cadastro → proteção de rota �
 🔁	Redirecionamento automático para /register se o acesso não for autorizado
 ⏳	Feedback visual de carregamento e mensagens de sucesso/erro
 
-🛠️ Tecnologias
+<h2>🛠️ Tecnologias</h2>
 <div align="left">
 
 <img src="https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white"/>
@@ -26,6 +26,7 @@ Projeto de estudo que simula um fluxo real de cadastro → proteção de rota �
 <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"/>
 
 </div>
+
 Angular (standalone components, signal, inject)
 Angular Router
 Reactive Forms
